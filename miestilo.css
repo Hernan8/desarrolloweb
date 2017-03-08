@@ -1,0 +1,41 @@
+body{background-image:url("./img./.jpg");
+background-repeat: no-repeat;
+background-position:center top;
+background-attachment:fixed;}
+
+body{ text-align: center;
+}
+#cont{width: 693px; margin: 0 auto 0 auto; text-align: left; }
+#encabezado{font-family:Times New Roman, Times, serif; height: 32px; margin-bottom: 80px; width: 693px; }
+#contenido{font-family:Arial,sans-serif; color:black; width: 500px; float: left; margin-bottom: 70px; text-align: justify;
+ padding-top:10px; padding-right:10px; padding-left: 10px; padding-bottom: 10px; background-image:url("./img./backcontenido.jpg");  
+}
+
+#menu{ width: 180px; float: left; text-transform: uppercase}
+
+
+
+
+ul {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-image: url("./img./ss.jpg");
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 60px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
