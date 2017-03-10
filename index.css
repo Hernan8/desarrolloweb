@@ -1,0 +1,42 @@
+#encabezado{font-family:Times New Roman, Times, serif;  color:black; position: absolute; top:30; left:300; color:black;}
+#fondo1{background-color: rgb(205,214,183); height: 100px; width:100%;border-radius-bottom:5px; box-shadow: 0 0 10px; }
+
+ #fondo2{background-color: rgb(255,219,219); height: 84%; width: 100%; margin-top: 2px; }
+
+#cuerpo{text-align: justify; margin-left: 200px; margin-right: 700px; position: absolute; top:200px; }
+ 
+
+
+#yoinicio{background-image:url(""); width: 259px; height:221px; position: absolute; top:190px; right: 400px;}
+nav {
+	
+	position: absolute; 
+	top:0px; right:0px;
+}
+	nav ul {
+		margin-top:40px;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			
+
+			display: inline-block;
+			line-height: 40px;
+		}
+			
+			nav ul li a {
+                border-radius-bottom:5px; box-shadow: 0 0 10px;
+				background-color:rgb(133,189,224);
+			height: 40px; width:140px; 
+				font-family:Times New Roman, Times, serif; color:white;
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
