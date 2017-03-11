@@ -1,13 +1,14 @@
 #encabezado{font-family:Times New Roman, Times, serif;  color:black; position: absolute; top:30; left:300; color:black;}
 #fondo1{background-color: rgb(205,214,183); height: 100px; width:100%;border-radius-bottom:5px; box-shadow: 0 0 10px; }
 
- #fondo2{background-color: rgb(255,219,219); height: 84%; width: 100%; margin-top: 2px; }
+ #fondo2{background-color: rgb(255,219,219); height: 90%; width: 100%; margin-top: 2px; }
 
 #cuerpo{text-align: justify; margin-left: 200px; margin-right: 700px; position: absolute; top:200px; }
  
 
 
-#yoinicio{background-image:url(""); width: 259px; height:221px; position: absolute; top:190px; right: 400px;}
+#fotoindex{position: absolute; top:200; left:800; border-radius-bottom:5px; box-shadow: 0 0 10px; }
+
 nav {
 	
 	position: absolute; 
