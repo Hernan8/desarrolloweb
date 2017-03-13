@@ -1,12 +1,12 @@
-#tituloave{position: absolute; font-family:Times New Roman, Times, serif; top:30; left:600; color:black;}
+#tituloave{position: absolute;  font-size: 5em; font-family:Times New Roman, Times, serif; top:20; left:500; color:black;}
 #fondoave1{background-color: rgb(205,214,183); height: 100px; width:100%;border-radius-bottom:5px; box-shadow: 0 0 10px; }
-#fondoave2{background-color:  rgb(255,219,219); height: 180%; width: 100%; margin-top: 2px;}
-#centeravetexto1{position: absolute; top:150; left:300; right:300; color:black; text-align: justify;}
+#fondoave2{background-color:  rgb(255,219,219); height: 1200px; width: 100%; margin-top: 2px;}
+#centeravetexto1{position: absolute; top:110; left:300; right:300; color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
 #centeravefoto1{position: absolute; top:300; left:500;}
-#centeravetexto2{position: absolute; top:530; left:300; right:300; color:black; text-align: justify;}
+#centeravetexto2{position: absolute; top:510; left:300; right:300; color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
 #centeravefoto2{position: absolute; top:660; left:500;}
-#centeravetexto3{position: absolute; top:900; left:300; right:300; color:black; text-align: justify;}
-#centeravefoto3{position: absolute; top:1070; left:500;}
+#centeravetexto3{position: absolute; top:870; left:300; right:300; color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
+#centeravefoto3{position: absolute; top:1100; left:500;}
 
 ul {
 position: fixed;
