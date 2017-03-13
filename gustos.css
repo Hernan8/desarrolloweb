@@ -1,7 +1,7 @@
-#titulogustos{position: absolute; font-family:Times New Roman, Times, serif; top:30; left:600; color:black;}
+#titulogustos{position: absolute; font-size: 5em; font-family:Times New Roman, Times, serif; top:14; left:400; color:black;}
 #fondogustos1{background-color: rgb(205,214,183); height: 100px; width:100%;border-radius-bottom:5px; box-shadow: 0 0 10px; }
 #fondogustos2{background-color:  rgb(255,219,219); height: 100%; width: 100%; margin-top: 2px;}
-#centergustostexto{position: absolute; top:150; left:300; right:300; color:black; text-align: justify;}
+#centergustostexto{position: absolute; top:120; left:300; right:300; color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
 #centergustosfoto{position: absolute; top:400; left:380; border-radius-bottom:5px; box-shadow: 0 0 30px; }
 
 
