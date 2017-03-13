@@ -1,0 +1,36 @@
+#tituloave{position: absolute; font-family:Times New Roman, Times, serif; top:30; left:600; color:black;}
+#fondoave1{background-color: rgb(205,214,183); height: 100px; width:100%;border-radius-bottom:5px; box-shadow: 0 0 10px; }
+#fondoave2{background-color:  rgb(255,219,219); height: 180%; width: 100%; margin-top: 2px;}
+#centeravetexto1{position: absolute; top:150; left:300; right:300; color:black; text-align: justify;}
+#centeravefoto1{position: absolute; top:300; left:500;}
+#centeravetexto2{position: absolute; top:530; left:300; right:300; color:black; text-align: justify;}
+#centeravefoto2{position: absolute; top:660; left:500;}
+#centeravetexto3{position: absolute; top:900; left:300; right:300; color:black; text-align: justify;}
+#centeravefoto3{position: absolute; top:1070; left:500;}
+
+ul {
+position: fixed;
+	margin-top: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    list-style-type: none;
+    margin-left: 30px;
+    padding: 0;
+    width: 200px;
+     border-radius-bottom:5px; box-shadow: 0 0 10px;
+    background-color:rgb(133,189,224);
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 30px 60px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
