@@ -1,12 +1,12 @@
-#tituloloqueno{position: absolute; font-family:Times New Roman, Times, serif; top:30; left:550; color:black;}
+#tituloloqueno{position: absolute; font-size: 5em; font-family:Times New Roman, Times, serif; top:15; left:350; color:black;}
 #fondoloqueno1{background-color: rgb(205,214,183); height: 100px; width:100%;border-radius-bottom:5px; box-shadow: 0 0 10px; }
-#fondoloqueno2{background-color:  rgb(255,219,219); height: 200%; width: 100%; margin-top: 2px;}
-#centerloquenotexto1{position: absolute; top:150; left:300; right:300; color:black; text-align: justify;}
+#fondoloqueno2{background-color:  rgb(255,219,219); height: 1370px; width: 100%; margin-top: 2px;}
+#centerloquenotexto1{position: absolute; top:120; left:300; right:300; color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
 #centerloquenofoto1{position: absolute; top:300; left:500;}
-#centerloquenotexto2{position: absolute; top:600; left:300; right:300; color:black; text-align: justify;}
+#centerloquenotexto2{position: absolute; top:570; left:300; right:300; color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
 #centerloquenofoto2{position: absolute; top:700; left:500;}
-#centerloquenotexto3{position: absolute; top:980; left:300; right:300; color:black; text-align: justify;}
-#centerloquenofoto3{position: absolute; top:1130; left:500;}
+#centerloquenotexto3{position: absolute; top:980; left:300; right:300; color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
+#centerloquenofoto3{position: absolute; top:1180; left:500;}
 
 ul {
 position: fixed;
