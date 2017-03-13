@@ -3,7 +3,7 @@
 
  #fondo2{background-color: rgb(255,219,219); height: 90%; width: 100%; margin-top: 2px; }
 
-#cuerpo{text-align: justify; margin-left: 200px; margin-right: 700px; position: absolute; top:200px; }
+#cuerpo{font-family: Arial, sans-serif; text-align: justify; margin-left: 200px; margin-right: 700px; position: absolute; top:200px; }
  
 
 
