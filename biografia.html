@@ -2,8 +2,8 @@
 <head>
   <title> Biograf&#237;a </title>
 
-  <link rel="stylesheet" type="text/css" href="./biografia.css">
-
+  <link rel="stylesheet" type="text/css" href="./css./biografia.css">
+<script language="JavaScript" SRC="js./biografia.js"></script>
 
 <div id="fondobio1">
 
@@ -18,7 +18,7 @@
 
   </head>
 
- <body>
+ <body onload="onload();">
 
 
  
@@ -37,14 +37,54 @@
 			</ul>
 
 
-</div>
+
 
 
 
 <div id="centersubtitulo">
  <p> En este apartado podras ver el resumen de mi vida dividido por el comienzo e institutos acad&#233;micos </p>
+
+<div id="comienzo">
+<input type="radio" id="uno" onchange="mostrarcomienzo()" name="bio" checked="" value="1"> Comienzo 
+
 </div>
 
+<div id="kinder">
+<input type="radio"  id="dos"  onchange="mostrarkinder()"  name="bio" value="2"> Kinder 
+</div>
+
+
+
+<div id="primaria">
+<input type="radio"   id="tres" name="bio" onchange="mostrarprimaria()" value="3" > Primaria 
+</div>
+
+
+<div id="secundaria">
+<input type="radio"    id="cuatro" name="bio" onchange="mostrarsecundaria()" value="4"> Secundaria 
+</div>
+
+<div id="preparatoria">
+<input type="radio"    id="cinco" name="bio" onchange="mostrarpreparatoria()" value="5"> Preparatoria 
+</div>
+
+<div id="universidad">
+<input type="radio"   id="seis" name="bio" onchange="mostraruniversidad()" value="6"> Universidad 
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div id="radio1" style="display;">
 <div id="centercomienzotitulo">
 <p> Comienzo </p>
 </div>
@@ -53,8 +93,13 @@ Nac&#237; en Los Mochis, pero mis pap&#225;s son del ejido Vinaterias, El Fuerte
 </div>
 
 <div id="centercomienzofoto">
-<p> <img src="./img/biografia/comienzo.jpg"> </p>
+<p> <img src="./img/biografia/comienzo.jpg" title="Inicio de mi vida"> </p>
 </div>
+</div>
+
+
+<div id="radio2" style="display;">
+
 <div id="centerkinder">
 <p> Kinder</p>
 </div>
@@ -62,9 +107,13 @@ Nac&#237; en Los Mochis, pero mis pap&#225;s son del ejido Vinaterias, El Fuerte
 Recuerdo cuando era ni&#241;o y ten&#237;a 4 a&#241;os, en ese tiempo apenas iba en el k&#237;nder, ese k&#237;nder se encontraba atr&#225;s de un monte de la comunidad de La Constancia, El Fuerte donde he vivido casi toda mi vida, fue ah&#237; donde conoc&#237; a varios amigos y compa&#241;eros, maestros y maestras por primera vez en mi vida, yo asist&#237;a al k&#237;nder junto con mi primer amigo Jos&#233; Carlos que era mi vecino, recuerdo que nos &#237;bamos juntos a caminando hacia all&#225; o algunos d&#237;as mi pap&#225; nos llevaba en su auto un Datsun Stanza 1982 el cual recuerdo muy bien porque era toda una reliquia para &#233;l, tra&#237;a varias calcoman&#237;as de los ca&#241;eros pues a &#233;l le gusta mucho el Beisbol, siempre que nos llevaba en su carro quer&#237;a que fu&#233;ramos muy tranquilos y sin hacer relajo ya que quer&#237;a mucho a ese auto y recuerdo que una vez mi amigo y yo nos subimos sin que &#233;l se diera cuenta o sin su permiso y est&#225;bamos movi&#233;ndole al volante y a la palanca de los cambios y de repente el llego y nos mir&#243; y nos baj&#243; con una buena rega&#241;ada que nosotros corrimos asustados y ri&#233;ndonos a la vez, fue algo muy divertido y que nos dio un buen susto. A mi amigo y a m&#237; en el k&#237;nder nos gustaba mucho subirnos a las llantas y al techo de la direcci&#243;n, me acuerdo que nos jug&#225;bamos carreras a ver qui&#233;n lograba subir m&#225;s r&#225;pido por las bases de los tejabanes, nosotros &#237;bamos en el tercero B y una vez me acuerdo que nos agarramos a golpes por unas llantas contra los del tercero A y mi amigo y yo los corrimos tir&#225;ndoles ladrillazos y recuerdo que si le pegamos a uno en el pie y nos metier&#243;n a la direcci&#243;n y mandaron llamar a nuestros p&#225;pas.
 </div>
 <div id="centerkinderfoto">
-<p> <img src="./img/biografia/kinder.jpg"></p>
+<p> <img src="./img/biografia/kinder.jpg" title="Graduacion Kinder" ></p>
+</div>
 </div>
 
+
+
+<div id="radio3" style="display;">
 <div id="centerprimariatitulo">
 <p> Primaria</p>
 </div>
@@ -75,12 +124,16 @@ A la edad de 6 a&#241;os fue cuando comenc&#233;  ir a la primaria, fue aqu&#237
 La secundaria se encontraba enfrente de la primaria y recuerdo que cuando era temporada de mangos, nos agarr&#225;bamos a mangazos contra los de la secundaria y a veces sin querer le peg&#225;bamos a los carros, una vez hasta quebramos el vidrio de uno auto de un profesor y se hizo un gran espect&#225;culo todos corr&#237;an gritando y echando burla y ri&#233;ndose como si hubi&#233;ramos conseguido algo muy importante, al momento de que se dieron cuenta los maestros todos corrimos y no hicieron responsable a nadie porque &#233;ramos muchos contando a los alumnos de la secundaria tambi&#233;n.
 </div>
 
+
 <div id="centerprimariafoto">
 
-<p><img src="./img/biografia/primaria.jpg"> </p>
+<p><img src="./img/biografia/primaria.jpg" title="Bailable Primaria" > </p>
 
 </div>
 
+</div>
+
+<div id="radio4" style="display;">
 
 <div id="centersecundariatitulo">
 <p> Secundaria </p>
@@ -92,8 +145,13 @@ A los 12 a&#241;os entr&#233; a la secundaria y fue aqu&#237; mismo en La Consta
 
 <div id="centersecundariafoto">
 
-<p> <img src="./img/biografia/secundaria.jpg"> </p>
+<p> <img src="./img/biografia/secundaria.jpg" title="Graduacion Secundaria" > </p>
 </div>
+
+</div>
+
+<div id="radio5" style="display;">
+
 
 <div id="centerpreparatoriatitulo">
 
@@ -107,9 +165,13 @@ A las fiestas de bienvenidas y de ese tipo las hac&#237;an en un antro en Los Mo
 
 <div id="centerpreparatoriafoto">
 
-<p> <img src="./img/biografia/preparatoria.jpg"> </p>
+<p> <img src="./img/biografia/preparatoria.jpg" title="Graduacion Preparatoria"> </p>
 
 </div>
+</div>
+
+
+<div id="radio6" style="display;">
 
 <div id="centeruniversidadtitulo">
 
@@ -120,15 +182,15 @@ A las fiestas de bienvenidas y de ese tipo las hac&#237;an en un antro en Los Mo
 Fue hasta los 18 a&#241;os que comenc&#233; mi carrera universitaria, decid&#237; estudiar Ing. Inform&#225;tica en el Instituto Tecnol&#243;gico de Los Mochis, y es donde actualmente me encuentro cursando el 6to semestre, mi inicio en la carrera fue relativamente bueno, conoc&#237; a varios compa&#241;eros con los cuales r&#225;pidamente empec&#233; a llevarme muy bien, fue aqu&#237; donde experimente por primera vez una exposici&#243;n de proyectos en el Domo, esta vez uno de mis pasatiempos fue entrenar kickboxing y box, es decir cambie el deporte de bal&#243;n por uno de contacto probando as&#237; nuevas cosas, y me gusto tambi&#233;n el deporte de contacto , que despu&#233;s de terminar mi para escolar de kickboxing, tome otro el cual era de box, me gustaba mucho cuando hac&#237;amos sparring pues la adrenalina era muy alta y hacia que me sintiera como alguien muy fuerte, a&#250;n recuerdo mi primer sparring fue contra un compa&#241;ero de clases y estuvo muy re&#241;ida la pelea que fue un empate, ambos terminamos muy satisfechos y cansados. Aqu&#237; conoc&#237; a maestros muy diferentes a los que hab&#237;a tenido ya, pero est&#225; bien poco a poco me adapte y pues lo pens&#233; y dije: est&#225; bien siempre es divertido probar cosas nuevas y diferentes estilos de aprendizaje. Posteriormente cuando todo iba muy bien a partir del 3er semestre en adelante me empezaron a atacar unas enfermedades muy raras, Fiebres, Infecciones, Malestares estomacales, los cuales me hicieron que me ausentara muchos d&#237;as pues hasta ten&#237;an que encamarme m&#237;nimo 4 d&#237;as y llegue estar en el hospital durante por 8 d&#237;as, sin duda fue una de las peores etapas de mi vida pero que tambi&#233;n me dieron muchas lecciones, me daban tantos medicamentos que a veces hasta ni com&#237;a nada, recuerdo que lo poco que llegaba a comer lo vomitaba, a veces pensaba que hasta morir&#237;a, mis padres y familiares estaban muy preocupados e impactados, pues cada 40 d&#237;as volv&#237;a a recaer, y fue que gracias a ellos y a su apoyo que poco a poco iba resistiendo un poco m&#225;s los tratamientos a los cuales era sometido y fue hasta 5to semestre que ya mi salud fue totalmente estable y sin ningunas reca&#237;das, fue ah&#237; donde me sent&#237;a como una persona nueva y que empezaba a valorar muchas cosas nuevamente, mis amigos y compa&#241;eros tambi&#233;n se preocuparon por mi cosa que siempre tendr&#233; presente, espero y mi etapa en la universidad termine de buena manera y que todo me salga bien.
 </div>
 
-<div id="centeruniversidadfoto"
-<p><img src="./img/biografia/universidad.jpg"></p>
+<div id="centeruniversidadfoto">
+<p><img src="./img/biografia/universidad.jpg" title="Exposicion en la Universidad"></p>
 
 
 
 </div>
+</div>
 
-
-
+</div>
 
  </body>
 

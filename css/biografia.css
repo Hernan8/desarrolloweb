@@ -1,0 +1,56 @@
+#titulobio{ font-size: 5em; font-family:Times New Roman, Times, serif; top:15; margin-left:490px;   color:black;}
+#fondobio1{background-color: rgb(205,214,183); height: 100px; width:100%;border-radius-bottom:5px; box-shadow: 0 0 10px;  }
+#fondobio2{background-color:  rgb(255,219,219);  margin-top: -12px;}
+#centersubtitulo{ font-family: monospace, courier, Arial, sans-serif; color:black; margin-left:300px;}
+#centercomienzotitulo{ font-size: 2em; font-family:Times New Roman, Times, serif; margin-left:590px;  color:black;}
+#centercomienzotexto{ margin-left:300px; margin-right:200px;  color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
+#centercomienzofoto{margin-left:500px;}
+#centerkinder{margin-left:590px; font-size: 2em;  font-family:Times New Roman, Times, serif;  color:black;}
+#centerkindertexto{margin-left:300px; margin-right:200px; text-align: justify; color:black; font-family: monospace, courier, Arial, sans-serif;}
+#centerkinderfoto{margin-left:500px;}
+#centerprimariatitulo{margin-left:590px; font-size: 2em; font-family:Times New Roman, Times, serif;   color:black;}
+#centerprimariatexto{margin-left:300px; margin-right:200px;  color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
+#centerprimariafoto{margin-left:500px;}
+#centersecundariatitulo{margin-left:590px; font-size: 2em; font-family:Times New Roman, Times, serif;   color:black;}
+#centersecundariatexto{margin-left:300px; margin-right:200px;  text-align: justify; font-family: monospace, courier, Arial, sans-serif;}
+#centersecundariafoto{margin-left:500px;}
+#centerpreparatoriatitulo{margin-left:590px; font-size: 2em; font-family:Times New Roman, Times, serif;   color:black;}
+#centerpreparatoriatexto{margin-left:300px; margin-right:200px; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
+#centerpreparatoriafoto{margin-left:500px;}
+#centeruniversidadtitulo{margin-left:590px; font-size: 2em; font-family:Times New Roman, Times, serif;   color:black;}
+#centeruniversidadtexto{margin-left:300px; margin-right:200px; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
+#centeruniversidadfoto{margin-left:500px;}
+
+#comienzo{margin-left:50px;   font-family: monospace, courier, Arial, sans-serif;   color:black;}
+#kinder{ margin-left:160px; margin-top:-20px;  font-family: monospace, courier, Arial, sans-serif;   color:black;}
+#primaria{ margin-left:260px; margin-top:-20px; font-family: monospace, courier, Arial, sans-serif;   color:black;}
+#secundaria{ margin-left:380px; margin-top:-20px; font-family: monospace, courier, Arial, sans-serif;   color:black;}
+#preparatoria{ margin-left:510px; margin-top:-20px; font-family: monospace, courier, Arial, sans-serif;   color:black;}
+#universidad{ margin-left:660px; margin-top:-20px; font-family: monospace, courier, Arial, sans-serif;   color:black;}
+
+ul {
+position: fixed;
+	margin-top: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    list-style-type: none;
+    margin-left: 30px;
+    padding: 0;
+    width: 200px;
+     border-radius-bottom:5px; box-shadow: 0 0 10px;
+    background-color:rgb(133,189,224);
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 30px 60px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
