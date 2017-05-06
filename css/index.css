@@ -1,13 +1,14 @@
-#encabezado{font-family:Times New Roman, Times, serif; font-size: 5em;  color:black; position: absolute; top:15; left:150; color:black;}
+#encabezado{font-family:Times New Roman, Times, serif; font-size: 5em; margin-left: 130px; color:black;}
 #fondo1{background-color: rgb(205,214,183); height: 100px; width:100%;border-radius-bottom:5px; box-shadow: 0 0 10px; }
 
- #fondo2{background-color: rgb(255,219,219); height: 90%; width: 100%; margin-top: 2px; }
-#subtitulo{font-family:Times New Roman, Times, serif; font-size: 2em;  color:black; position: absolute; top:190; left:200; color:black;}
-#cuerpo{font-family: monospace, courier, Arial, sans-serif; text-align: justify; margin-left: 200px; margin-right: 700px; position: absolute; top:230px; }
+ #fondo2{background-color:  rgb(255,219,219);  height:708px;  margin-top: 2px; }
+#subtitulo{font-family:Times New Roman, Times, serif; font-size: 2em; padding-left: 200px; padding-top:100px;   color:black;}
+#cuerpo{font-family: monospace, courier, Arial, sans-serif; text-align: justify; padding-left: 200px; padding-right: 600px; padding-top: 50px;  }
  
 
 
-#fotoindex{position: absolute; top:200; left:800; border-radius-bottom:5px; box-shadow: 0 0 10px; }
+#fotoindex{margin-top:-200px; padding-left:800px;}
+
 
 nav {
 	
@@ -41,3 +42,4 @@ nav {
 				nav ul li a:hover {
 					background: #0b76a6;
 				}
+
