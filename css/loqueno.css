@@ -1,0 +1,36 @@
+#tituloloqueno{padding-left:410px;font-size: 5em; font-family:Times New Roman, Times, serif; top:20; left:500; color:black;}
+#fondoloqueno1{background-color: rgb(205,214,183); height: 100px; width:100%;border-radius-bottom:5px; box-shadow: 0 0 10px; }
+#fondoloqueno2{background-color:  rgb(255,219,219);  width: 100%; margin-top: 2px;}
+#centerloquenotexto1{ padding-top:50px; padding-left: 300px; padding-right: 200px; padding-right: 200px;color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
+#centerloquenofoto1{ padding-left: 500px;}
+#centerloquenotexto2{padding-top:50px; padding-left: 300px; padding-right: 200px; color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
+#centerloquenofoto2{ padding-left: 500px;}
+#centerloquenotexto3{padding-top:50px; padding-left: 300px; padding-right: 200px; color:black; text-align: justify; font-family: monospace, courier, Arial, sans-serif; }
+#centerloquenofoto3{padding-left: 500px; }
+
+ul {
+position: fixed;
+	margin-top: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    list-style-type: none;
+    margin-left: 30px;
+    padding: 0;
+    width: 200px;
+     border-radius-bottom:5px; box-shadow: 0 0 10px;
+    background-color:rgb(133,189,224);
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 30px 60px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
